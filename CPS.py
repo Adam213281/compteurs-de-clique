@@ -6,7 +6,6 @@ def incrementer():
     compteur += 1
     label_compteur.config(text=str(compteur))
 
-
 root = tk.Tk()
 root.title("Compteur de Clics")
 
